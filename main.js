@@ -34,7 +34,7 @@ function onButtonClick(event, items){
 }
 
 function setEventListeners(items){
-    const logo = document.querySelector('.logo'); //이벤트의 위임
+    const logo = document.querySelector('.logos'); //이벤트의 위임
     const buttons = document.querySelector('.btns');
     logo.addEventListener('click', () => displayItems(items));
     buttons.addEventListener('click', event => onButtonClick(event, items));
