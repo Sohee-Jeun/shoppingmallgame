@@ -27,7 +27,7 @@ body {
   align-items: center;
 }
 
-.logo {
+.logos {
   cursor: pointer;
   transition: transform var(--annimation-duration) ease;
 }
